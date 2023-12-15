@@ -9,7 +9,7 @@ const Chef= () => {
 return(
     <section className="app__bg app__wrapper section__padding">
         <div className="app__wrapper_img app__wrapper_img-reverse">
-            <img src={images.chef} alt="chef" />
+            <img src={images.chef} alt="chef" loading="lazy" />
         </div>
 
         <div className="app__wrapper_info">
@@ -18,7 +18,7 @@ return(
 
             <div className="app__chef-content">
                 <div className="app__chef-content-quote">
-                <img src={images.quote} alt="quote" />
+                <img src={images.quote} alt="quote" loading="lazy" />
                 <p className="p__opensans">Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit</p>    
                 </div>
              <p className="p__opensans">auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit Nulla scelerisque 
@@ -29,7 +29,7 @@ return(
         <div className="app__chef-sign">
             <p className="app__chef-sign">Kevin Luo</p>
             <p className="p__opensans" >Chef & Founder</p>
-            <img src={images.sign} alt="sign" />
+            <img src={images.sign} alt="sign" loading="lazy" />
         </div>
     </div>
 </section>
