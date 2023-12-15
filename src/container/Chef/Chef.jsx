@@ -29,7 +29,7 @@ return(
         <div className="app__chef-sign">
             <p className="app__chef-sign">Kevin Luo</p>
             <p className="p__opensans" >Chef & Founder</p>
-            <img src={images.sign} alt="sign" loading="lazy" />
+            <img src={images.sign} alt="sign"  />
         </div>
     </div>
 </section>
